@@ -97,7 +97,7 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  gap: 168px;
+  gap: 268px;
   padding: 0 1px;
 }
 
