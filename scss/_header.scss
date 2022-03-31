@@ -1,0 +1,17 @@
+@import "vars";
+
+.header {
+  margin-bottom: 51px;
+  &__inner {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  &__nav-toggle {
+    display: none;
+  }
+  &__nav {
+    margin-left: 213px;
+  }
+}
