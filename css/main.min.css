@@ -1,1 +1,65 @@
-/* No CSS */
+.container {
+  width: 1353px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__link {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #263238;
+  text-decoration: none;
+}
+
+.menu__bg {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 238px;
+  padding: 12px 40px 11px 40px;
+  border: 2px solid #263238;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.menu__item + .menu__item {
+  margin-left: 30px;
+}
+
+.header__logo {
+  margin-left: 14px;
+}
+
+.header__nav {
+  margin-left: 253px;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 72px 0;
+}
+
+.header__nav-toggle {
+  display: none;
+}
