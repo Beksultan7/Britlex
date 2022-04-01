@@ -1,0 +1,39 @@
+@import "vars";
+
+.menu {
+  display: flex;
+  list-style: none;
+  &__link {
+    text-decoration: none;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $accent;
+  }
+  &__2 {
+    margin-left: 37px;
+    margin-right: 32px;
+  }
+  &__4 {
+    margin-left: 60px;
+    margin-right: 34px;
+  }
+  &__bg {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $dark;
+    text-decoration: none;
+    padding: 17px 57px;
+    border: 2px solid $accent;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  &__bg-item {
+    margin-left: 233px;
+  }
+}
